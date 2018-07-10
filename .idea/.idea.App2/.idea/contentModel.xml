@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\projects\RiderProjects\App2" t="IncludeFlat">
+      <e p="App2" t="IncludeRecursive">
+        <e p="App2.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="model" t="Include">
+          <e p="Account.cs" t="Include" />
+          <e p="Mojo.cs" t="Include" />
+          <e p="MojoAttribute.cs" t="Include" />
+          <e p="MojoReference.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="App2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Database" t="Include">
+            <e p="DBService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="MojoDeserializer.cs" t="Include" />
+        </e>
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="App2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\BurakBölek\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_App2.-547946229.00" t="ExcludeRecursive" />
+  </component>
+</project>
