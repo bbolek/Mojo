@@ -6,12 +6,12 @@ using Microsoft.IdentityModel.Xml;
 
 namespace App2.model
 {
-    public class Mojo : ISerializable
+    public class Mojo
     {
         public string name { get; set; }
         public long id { get; set; }
         public Dictionary<string, MojoAttribute> attributes { get; } = new Dictionary<string, MojoAttribute>();
-
+        public List<MojoAttribute> attributeList { get; } = new List<MojoAttribute>();
         public void save()
         {
             DBService.Instance.InsertMojo(this);
@@ -41,11 +41,6 @@ namespace App2.model
                 }
                 
             }
-        }
-
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            Console.Write(info);
         }
     }
 }

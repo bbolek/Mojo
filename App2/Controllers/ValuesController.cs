@@ -12,14 +12,14 @@ namespace App2.Controllers
     {
         [HttpPost]
         [Route("/mojo")]
-        public void Insert([FromBody] Mojo mojo)
+        public void Insert([FromBody] MojoRequest request)
         {
             //mojo.contact = JsonConvert.DeserializeObject<MojoReference>(mojo.attributes["contact"].value.ToString());
             try
             {
                 //var acc = JsonConvert.DeserializeObject<Account>(JsonConvert.SerializeObject(mojo));
                 //acc.save();
-                mojo.id = 3;
+                /*mojo.id = 3;
                 if (mojo.name == "account")
                 {
                     Account acc = (Account) mojo;
@@ -28,7 +28,7 @@ namespace App2.Controllers
                 else
                 {
                     mojo.save();
-                }
+                }*/
             }
             catch (Exception e)
             {

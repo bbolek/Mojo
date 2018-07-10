@@ -16,3 +16,17 @@ C:\projects\RiderProjects\App2\App2\obj\Debug\netcoreapp2.1\App2.RazorTargetAsse
 C:\projects\RiderProjects\App2\App2\obj\Debug\netcoreapp2.1\App2.csproj.CopyComplete
 C:\projects\RiderProjects\App2\App2\obj\Debug\netcoreapp2.1\App2.dll
 C:\projects\RiderProjects\App2\App2\obj\Debug\netcoreapp2.1\App2.pdb
+C:\Projects\mojo\Mojo\App2\bin\Debug\netcoreapp2.1\App2.deps.json
+C:\Projects\mojo\Mojo\App2\bin\Debug\netcoreapp2.1\App2.runtimeconfig.json
+C:\Projects\mojo\Mojo\App2\bin\Debug\netcoreapp2.1\App2.runtimeconfig.dev.json
+C:\Projects\mojo\Mojo\App2\bin\Debug\netcoreapp2.1\App2.dll
+C:\Projects\mojo\Mojo\App2\bin\Debug\netcoreapp2.1\App2.pdb
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.csprojAssemblyReference.cache
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.csproj.CoreCompileInputs.cache
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.RazorAssemblyInfo.cache
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.RazorAssemblyInfo.cs
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.AssemblyInfoInputs.cache
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.AssemblyInfo.cs
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.RazorTargetAssemblyInfo.cache
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.dll
+C:\Projects\mojo\Mojo\App2\obj\Debug\netcoreapp2.1\App2.pdb

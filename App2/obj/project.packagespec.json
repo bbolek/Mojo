@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\projects\\RiderProjects\\App2\\App2\\App2.csproj",
+    "projectUniqueName": "C:\\Projects\\mojo\\Mojo\\App2\\App2.csproj",
     "projectName": "App2",
-    "projectPath": "C:\\projects\\RiderProjects\\App2\\App2\\App2.csproj",
-    "outputPath": "C:\\projects\\RiderProjects\\App2\\App2\\obj\\",
+    "projectPath": "C:\\Projects\\mojo\\Mojo\\App2\\App2.csproj",
+    "outputPath": "C:\\Projects\\mojo\\Mojo\\App2\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
           "target": "Package",
           "version": "[2.1.0, )",
           "autoReferenced": true
+        },
+        "Npgsql": {
+          "target": "Package",
+          "version": "[4.0.2, )"
         }
       },
       "imports": [
