@@ -6,12 +6,14 @@ using Microsoft.IdentityModel.Xml;
 
 namespace App2.model
 {
-    public class Mojo
+    public class Mojo : BaseObject
     {
-        public string name { get; set; }
+        public string mojoType { get; set; }
         public long id { get; set; }
         public Dictionary<string, MojoAttribute> attributes { get; } = new Dictionary<string, MojoAttribute>();
         public List<MojoAttribute> attributeList { get; } = new List<MojoAttribute>();
+        public Dictionary<string, Mojo> relationshipInfo { get; } =new Dictionary<string, Mojo>();
+        
         public void save()
         {
             DBService.Instance.InsertMojo(this);
@@ -41,6 +43,34 @@ namespace App2.model
                 }
                 
             }
+        }
+
+        public MojoAttribute getAttribute(string attr)
+        {
+            if (attributes.ContainsKey(attr))
+            {
+                return attributes["attr"];
+            }
+            throw new Exception("Attribute " + attr + " not found!");
+        }
+
+        public T getValue<T>(string attr)
+        {
+            if (attributes.ContainsKey(attr))
+            {
+                return (T) (object)attributes[attr].value;
+            }
+            throw new Exception("Attribute " + attr + " not found!");
+        }
+        
+        public bool getBool(string attr)
+        {
+            return bool.Parse(this[attr].ToString());
+        }
+        
+        public string getString(string attr)
+        {
+            return this[attr].ToString();
         }
     }
 }

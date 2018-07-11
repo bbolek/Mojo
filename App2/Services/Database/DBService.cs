@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using App2.model;
 using Npgsql;
@@ -32,13 +33,25 @@ namespace App2.Services.Database
                 {
                     Console.WriteLine(e);
                 }
-                finally
+            }
+        }
+/*
+        public List<Mojo> queryMojo(String query)
+        {
+            using (var conn = new NpgsqlConnection(CONNECTION_STRING))
+            {
+                try
                 {
-                    conn.Close();
+                    conn.Open();
+                    var command = GenerateInsertCommand(conn, mojo);
+                    command?.ExecuteReader();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
                 }
             }
-
-        }
+        }*/
         
         private IDbCommand GenerateInsertCommand(NpgsqlConnection conn, Mojo mojo)
         {
@@ -47,7 +60,7 @@ namespace App2.Services.Database
                 return null;
             }
             IDbCommand command = conn.CreateCommand();
-            var sql = "INSERT INTO public." + mojo.name + "( ";
+            var sql = "INSERT INTO public." + mojo.mojoType + "( ";
             if (mojo.attributes == null || mojo.attributes.Count <= 0) return null;
             foreach (var entry in mojo.attributes)
             {

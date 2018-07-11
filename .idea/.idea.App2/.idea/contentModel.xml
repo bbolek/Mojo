@@ -12,10 +12,19 @@
         </e>
         <e p="model" t="Include">
           <e p="Account.cs" t="Include" />
-          <e p="Mojo.cs" t="Include" />
-          <e p="MojoAttribute.cs" t="Include" />
-          <e p="MojoReference.cs" t="Include" />
-          <e p="MojoRequest.cs" t="Include" />
+          <e p="infrastructure" t="Include">
+            <e p="BaseObject.cs" t="Include" />
+            <e p="data" t="Include">
+              <e p="MojoAttributeInfo.cs" t="Include" />
+              <e p="MojoObjectInfo.cs" t="Include" />
+              <e p="MojoRelation.cs" t="Include" />
+            </e>
+            <e p="Mojo.cs" t="Include" />
+            <e p="MojoAttribute.cs" t="Include" />
+            <e p="MojoQuery.cs" t="Include" />
+            <e p="MojoReference.cs" t="Include" />
+            <e p="MojoRequest.cs" t="Include" />
+          </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

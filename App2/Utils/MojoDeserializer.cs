@@ -42,9 +42,11 @@ namespace App2.Utils
                     {
                         attribute.value = JsonConvert.DeserializeObject<MojoReference>(attribute.value.ToString());
                     }
+                    mojo.attributes.Add(attribute.name, attribute);
                 }
 
                 req.obj = mojo;
+                var e = mojo.getValue<MojoReference>("contact");
             }
             
             Console.Write(req);

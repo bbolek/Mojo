@@ -2,30 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbe1a5e-3dc2-4222-8052-0318f19e6229" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.App2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App2/model/MojoRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App2/model/infrastructure/BaseObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App2/model/infrastructure/MojoQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App2/model/infrastructure/data/MojoAttributeInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App2/model/infrastructure/data/MojoObjectInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App2/model/infrastructure/data/MojoRelation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.App2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.App2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.App2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.App2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/App2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/App2/App2.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/Services/Database/DBService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/Services/Database/DBService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App2/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/App2/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/App2/bin/Debug/netcoreapp2.1/App2.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/model/Mojo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/model/Mojo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/App2.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/App2.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/App2.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/App2.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/App2.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/App2.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/model/Mojo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/model/MojoAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/model/infrastructure/MojoAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/model/MojoReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/model/infrastructure/MojoReference.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2/model/MojoRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App2/model/infrastructure/MojoRequest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/Debug/netcoreapp2.1/App2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/App2/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,69 +33,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App2/Controllers/ValuesController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-              <folding>
-                <marker date="1531205826473" expanded="false" signature="6:178" ph="..." />
-                <marker date="1531205826473" expanded="true" signature="205:1092" ph="{...}" />
-                <marker date="1531205826473" expanded="true" signature="278:1090" ph="{...}" />
-                <marker date="1531205826473" expanded="true" signature="387:1083" ph="{...}" />
-                <marker date="1531205826473" expanded="true" signature="533:979" ph="{...}" />
-                <marker date="1531205826473" expanded="true" signature="564:680" ph="/* var acc = JsonConvert.DeserializeObject&lt;Account&gt;(JsonConvert.SerializeObject(mojo)); ... */" />
-                <marker date="1531205826473" expanded="true" signature="697:965" ph="/* mojo.id = 3; ... */" />
-                <marker date="1531205826473" expanded="true" signature="1011:1073" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MojoRequest.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App2/model/MojoRequest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <marker date="1531210714691" expanded="false" signature="6:49" ph="..." />
-                <marker date="1531210714691" expanded="true" signature="99:409" ph="{...}" />
-                <marker date="1531210714691" expanded="true" signature="130:407" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MojoDeserializer.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MojoDeserializer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="347">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
-                <marker date="1531210752826" expanded="false" signature="6:135" ph="..." />
-                <marker date="1531210752826" expanded="true" signature="157:1783" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="209:1781" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="314:776" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="416:479" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="496:766" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="902:1672" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="1061:1580" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="1284:1533" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="1355:1515" ph="{...}" />
-                <marker date="1531210752826" expanded="true" signature="1730:1775" ph="{...}" />
+                <marker date="1531294022032" expanded="false" signature="6:135" ph="..." />
+                <marker date="1531294022032" expanded="true" signature="157:1916" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="209:1914" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="314:776" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="416:479" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="496:766" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="902:1805" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="1061:1713" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="1284:1601" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="1355:1515" ph="{...}" />
+                <marker date="1531294022032" expanded="true" signature="1863:1908" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MojoAttribute.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App2/model/MojoAttribute.cs">
+      <file leaf-file-name="Mojo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="714">
+              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
               <folding>
-                <marker date="1531203131593" expanded="true" signature="35:183" ph="{...}" />
-                <marker date="1531203131593" expanded="true" signature="68:181" ph="{...}" />
+                <marker date="1531294544214" expanded="false" signature="6:148" ph="..." />
+                <marker date="1531294544214" expanded="true" signature="170:2235" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="207:2233" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="629:698" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="751:1458" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="777:1092" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="850:940" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="961:1079" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="1108:1448" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="1181:1278" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="1299:1417" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="1514:1721" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="1570:1641" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="1764:1987" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="1820:1907" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="2037:2111" ph="{...}" />
+                <marker date="1531294544214" expanded="true" signature="2165:2227" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -109,6 +88,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>JsonConverter</find>
+      <find>dispos</find>
+      <find>kest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,29 +98,37 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/App2/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/58/bcaa7efe/AsyncTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App2/model/MojoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App2/model/MojoReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C7CF6354-FDBD-4D4A-8E1F-5A0D0DEB310C/fe/8feeab23/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App2/model/Account.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App2/Services/Database/DBService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/57/fe133c57/AsyncMethodBuilderCore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/21/3f4a678f/ParameterBinder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/3b/a5b4de4c/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App2/model/MojoRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/466B67B5-5191-45C7-90F8-38C666173BEB/05/b5afed38/JsonInputFormatter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App2/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/f7/b7e72708/Thread.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/e0/c5a45f5c/JToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DCF32EC1-FB57-4D54-8478-090F615E3D01/16/NpgsqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/c8/535d5206/JObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/1f/7705aac3/JsonSerializerInternalWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/data/MojoRelation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/4f/83411f43/ConvertUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/data/MojoObjectInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/data/MojoAttributeInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/4c/b26d7bd1/JTokenReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/c4/23734714/ISerializable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/95/83a0b6de/GC.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/71/2b6ffaa8/JsonSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1A963D6B-DB8D-435E-8DCD-C28935E050AD/ee/e81f458b/EntityFrameworkServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/f5/f2c39989/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App2/model/Mojo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,20 +140,32 @@
         <option value="$PROJECT_DIR$/App2/model/MojoReference.cs" />
         <option value="$PROJECT_DIR$/App2/model/Account,.cs" />
         <option value="$PROJECT_DIR$/App2/model/Account.cs" />
-        <option value="$PROJECT_DIR$/App2/Startup.cs" />
         <option value="$PROJECT_DIR$/App2/Controllers/ValuesController.cs" />
-        <option value="$PROJECT_DIR$/App2/Services/Database/DBService.cs" />
         <option value="$PROJECT_DIR$/App2/model/Mojo.cs" />
         <option value="$PROJECT_DIR$/App2/model/MojoRequest.cs" />
+        <option value="$PROJECT_DIR$/App2/model/MojoQuery.cs" />
+        <option value="$PROJECT_DIR$/App2/model/MojoRelation.cs" />
+        <option value="$PROJECT_DIR$/App2/model/infrastructure/BaseObject,.cs" />
+        <option value="$PROJECT_DIR$/App2/model/infrastructure/BaseObject.cs" />
+        <option value="$PROJECT_DIR$/App2/model/infrastructure/data/MojoObject.cs" />
+        <option value="$PROJECT_DIR$/App2/model/infrastructure/data/MojoAttribute.cs" />
+        <option value="$PROJECT_DIR$/App2/model/infrastructure/data/MojoAttributeInfo.cs" />
+        <option value="$PROJECT_DIR$/App2/appsettings.json" />
+        <option value="$PROJECT_DIR$/App2/Services/Database/DBService.cs" />
+        <option value="$PROJECT_DIR$/App2/Services/Database/MojoDbContext.cs" />
+        <option value="$PROJECT_DIR$/App2/Startup.cs" />
+        <option value="$PROJECT_DIR$/App2/Program.cs" />
         <option value="$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs" />
+        <option value="$PROJECT_DIR$/App2/model/infrastructure/MojoReference.cs" />
+        <option value="$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="70" />
-    <option name="width" value="1750" />
-    <option name="height" value="985" />
+    <option name="x" value="1912" />
+    <option name="y" value="22" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,6 +199,21 @@
               <item name="App2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="App2" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="model" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="App2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="App2" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="model" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="App2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="App2" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="model" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="infrastructure" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="data" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -280,12 +296,20 @@
       <workItem from="1530795811904" duration="6770000" />
       <workItem from="1531132617080" duration="40000" />
       <workItem from="1531203697653" duration="894000" />
-      <workItem from="1531205608124" duration="5063000" />
+      <workItem from="1531205608124" duration="12151000" />
     </task>
+    <task id="LOCAL-00001" summary="More Dynamic with MojoRequest">
+      <created>1531210877049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531210877049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26870000" />
+    <option name="totallyTimeSpent" value="33958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,10 +321,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="22" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286517" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.3286517" />
@@ -309,18 +333,18 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31788793" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.16810344" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28728607" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3275862" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28771552" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2973274" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Change Signature" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,18 +353,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More Dynamic with MojoRequest" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Dynamic with MojoRequest" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs</url>
-          <line>49</line>
+          <line>51</line>
           <properties documentPath="$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs" initialLine="18">
             <startOffsets>
-              <startOffset value="1606" />
+              <startOffset value="1739" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="1625" />
+              <endOffset value="1758" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="34" />
@@ -360,23 +388,56 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs</url>
-          <line>34</line>
-          <properties documentPath="$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs" initialLine="34">
+          <line>47</line>
+          <properties documentPath="$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs" initialLine="47">
             <startOffsets>
-              <startOffset value="1032" />
+              <startOffset value="1619" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="1061" />
+              <endOffset value="1634" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs</url>
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs" initialLine="58">
+            <startOffsets>
+              <startOffset value="1787" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1820" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>mojo.getValue&lt;MojoReference&gt;(&quot;contact&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>req.obj.getValue&lt;MojoReference&gt;(&quot;contact&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>req.mojo.getValue&lt;MojoReference&gt;(&quot;contact&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mojo.getVa</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>serializer.Deserialize(reader, objectType)</expression-string>
         <language-id>C#</language-id>
@@ -400,83 +461,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App2/model/Mojo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/MojoReference.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/MojoAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <marker date="1531210752826" expanded="false" signature="6:135" ph="..." />
-            <marker date="1531210752826" expanded="true" signature="157:1783" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="209:1781" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="314:776" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="416:479" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="496:766" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="902:1672" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1061:1580" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1284:1533" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1355:1515" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1730:1775" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <marker date="1531210752826" expanded="false" signature="6:135" ph="..." />
-            <marker date="1531210752826" expanded="true" signature="157:1783" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="209:1781" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="314:776" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="416:479" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="496:766" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="902:1672" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1061:1580" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1284:1533" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1355:1515" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1730:1775" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/71/2b6ffaa8/JsonSerializer.cs" />
-    <entry file="file://$PROJECT_DIR$/App2/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/f8/6ab3ca5f/ExecutionContext.cs" />
     <entry file="file://$PROJECT_DIR$/App2/model/Account.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -484,21 +468,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/Mojo.cs">
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/MojoReference.cs">
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoReference.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/MojoAttribute.cs">
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoAttribute.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
@@ -527,7 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/Mojo.cs">
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -553,13 +537,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/f8/6ab3ca5f/ExecutionContext.cs" />
-    <entry file="file://$PROJECT_DIR$/App2/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App2/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -567,41 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App2/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/MojoReference.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1531203131593" expanded="true" signature="20:149" ph="{...}" />
-            <marker date="1531203131593" expanded="true" signature="53:147" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/c4/23734714/ISerializable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1531203131570" expanded="false" signature="6:255" ph="..." />
-            <marker date="1531203131570" expanded="true" signature="271:598" ph="{...}" />
-            <marker date="1531203131570" expanded="true" signature="298:596" ph="{...}" />
-            <marker date="1531203131570" expanded="true" signature="351:425" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,59 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/MojoAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <marker date="1531203131593" expanded="true" signature="35:183" ph="{...}" />
-            <marker date="1531203131593" expanded="true" signature="68:181" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/Services/Database/DBService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding>
-            <marker date="1531203131572" expanded="false" signature="6:64" ph="..." />
-            <marker date="1531203131572" expanded="true" signature="98:2209" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="128:2207" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="429:509" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="552:1086" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="633:1075" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="667:853" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="889:967" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="991:1061" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="1178:2201" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="1218:1275" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="1529:1598" ph="{...}" />
-            <marker date="1531203131572" expanded="true" signature="1729:2069" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/Mojo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <marker date="1531210110714" expanded="false" signature="6:148" ph="..." />
-            <marker date="1531210110714" expanded="true" signature="170:1341" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="194:1339" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="504:573" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="626:1333" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="652:967" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="725:815" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="836:954" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="983:1323" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="1056:1153" ph="{...}" />
-            <marker date="1531210110714" expanded="true" signature="1174:1292" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/1f/7705aac3/JsonSerializerInternalWriter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1103,53 +996,6 @@
             <marker date="1531206210328" expanded="true" signature="42657:42848" ph="{...}" />
             <marker date="1531206210328" expanded="true" signature="42939:43506" ph="{...}" />
             <marker date="1531206210328" expanded="true" signature="43593:44154" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/f7/b7e72708/Thread.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-          <folding>
-            <marker date="1531206170211" expanded="true" signature="0:329" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1531206170211" expanded="false" signature="337:511" ph="..." />
-            <marker date="1531206170211" expanded="true" signature="539:7595" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="588:7593" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="1068:1080" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="1118:1260" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="1318:1606" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="1657:1799" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="1870:2158" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="2197:2245" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="2387:2635" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="2680:2884" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="2913:3147" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="3195:3340" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="3211:3267" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="3277:3334" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="3400:3557" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="3416:3478" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="3488:3551" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="3940:4001" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="4049:4359" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="4527:4582" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="4721:4770" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="4810:4896" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="4826:4890" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="5144:5453" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="5586:5629" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="5874:6158" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="5890:5951" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="5961:6152" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="6197:6477" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="6213:6272" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="6282:6471" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="6852:6939" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="6978:7031" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="7059:7443" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="7075:7119" ph="{...}" />
-            <marker date="1531206170211" expanded="true" signature="7129:7437" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1527,15 +1373,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App2/model/MojoRequest.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DCF32EC1-FB57-4D54-8478-090F615E3D01/16/NpgsqlConnection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="610" column="29" selection-start-line="610" selection-start-column="29" selection-end-line="610" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoRequest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <marker date="1531210714691" expanded="false" signature="6:49" ph="..." />
-            <marker date="1531210714691" expanded="true" signature="99:409" ph="{...}" />
-            <marker date="1531210714691" expanded="true" signature="130:407" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1556,22 +1404,254 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/BaseObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <marker date="1531288442674" expanded="true" signature="20:179" ph="{...}" />
+            <marker date="1531288442674" expanded="true" signature="50:177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1A963D6B-DB8D-435E-8DCD-C28935E050AD/ee/e81f458b/EntityFrameworkServiceCollectionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C7CF6354-FDBD-4D4A-8E1F-5A0D0DEB310C/fe/8feeab23/ConfigurationExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/Services/Database/MojoDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/Services/Database/DBService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <marker date="1531290414320" expanded="false" signature="6:98" ph="..." />
+            <marker date="1531290414320" expanded="true" signature="132:2644" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="162:2642" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="463:543" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="586:1025" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="667:1015" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="701:887" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="923:1001" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="1026:1517" ph="/* public List&lt;Mojo&gt; queryMojo(String query) ... */" />
+            <marker date="1531290414320" expanded="true" signature="1609:2636" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="1649:1706" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="1964:2033" ph="{...}" />
+            <marker date="1531290414320" expanded="true" signature="2164:2504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <marker date="1531293814607" expanded="true" signature="6:193" ph="..." />
+            <marker date="1531293814607" expanded="true" signature="209:1320" ph="{...}" />
+            <marker date="1531293814607" expanded="true" signature="236:1318" ph="{...}" />
+            <marker date="1531293814607" expanded="true" signature="295:358" ph="{...}" />
+            <marker date="1531293814607" expanded="true" signature="581:823" ph="{...}" />
+            <marker date="1531293814607" expanded="true" signature="706:810" ph="{...}" />
+            <marker date="1531293814607" expanded="true" signature="1011:1312" ph="{...}" />
+            <marker date="1531293814607" expanded="true" signature="1071:1148" ph="{...}" />
+            <marker date="1531293814607" expanded="true" signature="1165:1224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <marker date="1531293820608" expanded="false" signature="6:333" ph="..." />
+            <marker date="1531293820608" expanded="true" signature="349:676" ph="{...}" />
+            <marker date="1531293820608" expanded="true" signature="376:674" ph="{...}" />
+            <marker date="1531293820608" expanded="true" signature="429:503" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/data/MojoRelation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <marker date="1531288186931" expanded="true" signature="20:337" ph="{...}" />
+            <marker date="1531288186931" expanded="true" signature="59:335" ph="{...}" />
+            <marker date="1531288186931" expanded="true" signature="133:268" ph="/* private Mojo fromMojo; ... */" />
+            <marker date="1531288186931" expanded="true" signature="296:329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/data/MojoObjectInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <marker date="1531288498386" expanded="true" signature="20:340" ph="{...}" />
+            <marker date="1531288498386" expanded="true" signature="57:338" ph="{...}" />
+            <marker date="1531288498386" expanded="true" signature="90:220" ph="{...}" />
+            <marker date="1531288498386" expanded="true" signature="151:210" ph="{...}" />
+            <marker date="1531288498386" expanded="true" signature="256:332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/data/MojoAttributeInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <marker date="1531288620903" expanded="true" signature="20:87" ph="{...}" />
+            <marker date="1531288620903" expanded="true" signature="64:85" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoReference.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <marker date="1531294426647" expanded="true" signature="20:149" ph="{...}" />
+            <marker date="1531294426647" expanded="true" signature="53:147" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/MojoAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <marker date="1531203131593" expanded="true" signature="35:183" ph="{...}" />
+            <marker date="1531203131593" expanded="true" signature="68:181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App2/Utils/MojoDeserializer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="347">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
-            <marker date="1531210752826" expanded="false" signature="6:135" ph="..." />
-            <marker date="1531210752826" expanded="true" signature="157:1783" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="209:1781" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="314:776" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="416:479" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="496:766" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="902:1672" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1061:1580" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1284:1533" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1355:1515" ph="{...}" />
-            <marker date="1531210752826" expanded="true" signature="1730:1775" ph="{...}" />
+            <marker date="1531294022032" expanded="false" signature="6:135" ph="..." />
+            <marker date="1531294022032" expanded="true" signature="157:1916" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="209:1914" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="314:776" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="416:479" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="496:766" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="902:1805" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="1061:1713" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="1284:1601" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="1355:1515" ph="{...}" />
+            <marker date="1531294022032" expanded="true" signature="1863:1908" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5768598-6176-46DE-8D91-13AA881382D1/f7/b7e72708/Thread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+          <folding>
+            <marker date="1531206170211" expanded="true" signature="0:329" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1531206170211" expanded="false" signature="337:511" ph="..." />
+            <marker date="1531206170211" expanded="true" signature="539:7595" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="588:7593" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="1068:1080" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="1118:1260" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="1318:1606" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="1657:1799" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="1870:2158" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="2197:2245" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="2387:2635" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="2680:2884" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="2913:3147" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="3195:3340" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="3211:3267" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="3277:3334" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="3400:3557" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="3416:3478" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="3488:3551" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="3940:4001" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="4049:4359" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="4527:4582" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="4721:4770" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="4810:4896" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="4826:4890" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="5144:5453" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="5586:5629" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="5874:6158" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="5890:5951" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="5961:6152" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="6197:6477" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="6213:6272" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="6282:6471" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="6852:6939" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="6978:7031" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="7059:7443" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="7075:7119" ph="{...}" />
+            <marker date="1531206170211" expanded="true" signature="7129:7437" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App2/model/infrastructure/Mojo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+          <folding>
+            <marker date="1531294544214" expanded="false" signature="6:148" ph="..." />
+            <marker date="1531294544214" expanded="true" signature="170:2235" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="207:2233" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="629:698" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="751:1458" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="777:1092" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="850:940" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="961:1079" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="1108:1448" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="1181:1278" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="1299:1417" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="1514:1721" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="1570:1641" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="1764:1987" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="1820:1907" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="2037:2111" ph="{...}" />
+            <marker date="1531294544214" expanded="true" signature="2165:2227" ph="{...}" />
           </folding>
         </state>
       </provider>
